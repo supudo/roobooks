@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "RooBooks\UI.csproj", "{3BE2DAE5-5C29-4184-A04F-C8EFBADE8413}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{D07AC23C-64DD-4228-9933-B2B7F85CC3CF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{E1EA0691-54B7-4A84-8DFE-819CEB82E7E0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3BE2DAE5-5C29-4184-A04F-C8EFBADE8413}.Debug.ActiveCfg = Debug|.NET
+		{3BE2DAE5-5C29-4184-A04F-C8EFBADE8413}.Debug.Build.0 = Debug|.NET
+		{3BE2DAE5-5C29-4184-A04F-C8EFBADE8413}.Release.ActiveCfg = Release|.NET
+		{3BE2DAE5-5C29-4184-A04F-C8EFBADE8413}.Release.Build.0 = Release|.NET
+		{D07AC23C-64DD-4228-9933-B2B7F85CC3CF}.Debug.ActiveCfg = Debug|.NET
+		{D07AC23C-64DD-4228-9933-B2B7F85CC3CF}.Debug.Build.0 = Debug|.NET
+		{D07AC23C-64DD-4228-9933-B2B7F85CC3CF}.Release.ActiveCfg = Release|.NET
+		{D07AC23C-64DD-4228-9933-B2B7F85CC3CF}.Release.Build.0 = Release|.NET
+		{E1EA0691-54B7-4A84-8DFE-819CEB82E7E0}.Debug.ActiveCfg = Release
+		{E1EA0691-54B7-4A84-8DFE-819CEB82E7E0}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
